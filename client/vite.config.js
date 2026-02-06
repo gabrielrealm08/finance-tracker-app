@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/finance-tracker-app/", // ✅ repo name here
+  base: "/finance-tracker-app/",
 });
