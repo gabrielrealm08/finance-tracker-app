@@ -25,6 +25,8 @@ app.get("/api/health", (req, res) => {
 
 app.use("/api/transactions", txRoutes);
 
+app.use(cors());
+
 // 🔑 MongoDB connection
 async function startServer() {
   try {
